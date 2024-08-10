@@ -1,0 +1,1429 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+
+    <!-- title of site -->
+    <title>Zen Ya Zok (ZZ)</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="{% static 'logo/favicon.png' %}" />
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+    <!--linear icon css-->
+    <link rel="stylesheet" href="{% static 'css/linearicons.css' %}">
+
+    <!--flaticon.css-->
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="{% static 'css/bootsnav.css' %}">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+        .zoom-container {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+            height: 400px;
+        }
+        .zoom-container:hover .zoom {
+            transform: scale(4.2);
+        }
+        .zoom {
+            transition: transform 0.9s ease;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="" style="background-image: url('static/images/welcome-hero/zeny.jpg');">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="500">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <div class="logo">
+						            <img src="{% static 'images/welcome-hero/font.png' %}" style="border-radius: 50%;
+            width: 50px; /* Ajustez la taille selon vos besoins */
+            height: 50px;display: block; /* S'assure que l'image est traitée comme un bloc */
+            margin: 0 auto; /* Centre l'image dans son conteneur */" alt="Logo Zen Ya Zok">
+						            <a class="navbar-brand" href="accueil.html">Zen Ya Zok<span></span></a>
+
+						        </div>
+				                
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#accueil">Accueil</a></li>
+				                    <li class="scroll"><a href="#featured-cars">Activités</a></li>
+				                    <li class="scroll"><a href="#new-cars">Membres</a></li>
+				                    <li class="scroll"><a href="#brand">Événements</a></li>
+				                    <li class="scroll"><a href="#contact">Contact</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Solidarité, Entraide et Développement au cœur de Mimbang Essandone</h2>
+					<p>
+						Zen Ya Zok (ZZ) est une association dédiée aux membres du village de MIMBANG. Nous nous engageons à nous entraider mutuellement et à résoudre ensemble les problèmes de notre communauté. 
+					</p>
+					<button class="welcome-btn" onclick="window.location.href='#'">En savoir plus</button>
+				</div>
+			</div>
+
+			
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+
+
+
+		<!--new-cars start -->
+		<section id="featured-cars" class="new-cars">
+			<div class="container">
+				<div class="section-header">
+					<h2>événements à venir</h2>
+				</div><!--/.section-header-->
+				<div class="new-cars-content">
+					<div class="owl-carousel owl-theme" id="new-cars-carousel">
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-img">
+											<img src="{% static 'images/welcome-hero/font.png' %}" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-txt">
+											<h2 class="text-danger"><a class="text-danger" href="#">🐘Association Zen ya Zok (ZZ)🐘 </a></h2>
+											<p class="text-danger">
+												
+       												COMMUNIQUÉ
+
+											</p>
+											<p class="new-cars-para2">
+
+Dans le souci harmonieux de passer en revue les études de projets afin de les disposer leurs différentes réalisations sur le court, le moyen ou le long terme, le Président de l'association Zen ya Zok (ZZ), en la personne de Teddy EDOU convie les membres de ladite structure associative à une importante réunion.<br />
+    • Date : Samedi 20 Juillet 2024 <br />
+    • Lieu : Station Engen sise dans la zone dite St Georges à Nzeng Ayong<br />
+    • Heure : 14h30.<br />
+    <br />
+
+Considérant le caractère capital que revêt cette rencontre, la présence de tous les Fils de Mimbang Essandone est vivement souhaitée.<br />
+<br />
+
+LE SECRÉTAIRE GÉNÉRAL
+Kévin MEBA
+											</p>
+											
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<!--/.new-cars-item-->
+					</div><!--/#new-cars-carousel-->
+				</div><!--/.new-cars-content-->
+			</div><!--/.container-->
+
+		</section><!--/.new-cars-->
+		<!--new-cars end -->
+
+
+		<!-- clients-say strat -->
+		<section id="new-cars"  class="clients-say">
+			<div class="container">
+				<div class="section-header">
+					<h2>Membres du bureau</h2>
+				</div><!--/.section-header-->
+				<div class="row">
+					<div class="owl-carousel testimonial-carousel">
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/president.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p> 
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">EDOU Teddy Thérence</a></h2>
+										<h4>Président</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/vice-president.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p> 
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">ESSONE Arnaud</a></h2>
+										<h4>Vive président</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/sec-general.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">MEBA ONDO Kévin</a></h2>
+										<h4>Secrétaire général chargé de la communication</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/trésorier-général.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">MEWOUROU CARTHAGE Steeve</a></h2>
+										<h4>Trésorier Général</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/commissaire-compte.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">KOUMBA Andréa</a></h2>
+										<h4>Commissaire aux comptes</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/social.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">MVÉ EYENE Romaric</a></h2>
+										<h4>Responsable des activités sociales, chargé des relations extérieures</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/durable.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">FAMA Bertrand</a></h2>
+										<h4>Responsable des activités forestières, chargé de l'agriculture  et du développement durable</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/revenu.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">MBA ZUÈ Simon</a></h2>
+										<h4>Responsable des activités génératrices de revenus chargé de l'autonomisation</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/culturel.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">NKA ALLO'O Patrick</a></h2>
+										<h4>Responsable de la Culture et des Arts</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+
+						<div class="col-sm-3 col-xs-12">
+							<div class="single-testimonial-box">
+								<div class="testimonial-description">
+									<div class="testimonial-info">
+										<div class="testimonial-img">
+											<img src="{% static 'images/clients/femmes.jpg' %}" alt="image of clients person" />
+										</div><!--/.testimonial-img-->
+									</div><!--/.testimonial-info-->
+									<div class="testimonial-comment">
+										<p>
+										</p>
+									</div><!--/.testimonial-comment-->
+									<div class="testimonial-person">
+										<h2><a href="#">MBA MOTO Janice Yvana</a></h2>
+										<h4>Responsable des femmes, chargé de la refondation</h4>
+									</div><!--/.testimonial-person-->
+								</div><!--/.testimonial-description-->
+							</div><!--/.single-testimonial-box-->
+						</div><!--/.col-->
+
+
+					</div><!--/.testimonial-carousel-->
+				</div><!--/.row-->
+			</div><!--/.container-->
+
+		</section><!--/.clients-say-->	
+		<!-- clients-say end -->
+
+
+
+
+		
+		<!--brand strat -->
+		<section id="brand"  class="brand">
+			<div class="container">
+				<div class="brand-area">
+					<div class="section-header">
+					<h2>Derniers évènements</h2>
+					<br /> <br /> <br />
+				</div>
+				<hr>
+				<!---------------------/evenement 1--------------------------->	
+
+				<h3 class="text-center">COMPTE RENDU DE L'ASSEMBLEE GENERALE DU 04/05/2024 DE L'association Zen ya Zok (ZZ)</h3>
+                <br />
+                <p>
+						COMPTE RENDU DE L'ASSEMBLEE GENERALE DU 04/05/2024 DE L'association Zen ya Zok (ZZ)
+ASSOCIATION ZEN YA ZOK 
+ Adresse du Siège social : Quartier Mimbang Essandone 
+Tel : +24177533030/+24162187405
+Le quorum étant atteint l'assemblée générale a pu valablement délibérer à 80%.
+Le Samedi 04 Mai 2024, à Libreville, les membres de l'association Zen ya Zok (ZZ) se sont réunis à la Terrasse d'Alexandrine (Ancien Delta) en Assemblée générale ordinaire sur convocation du bureau datée du 24 Mars 2024. 
+Une large communication a soutenu ladite convocation.
+ORDRE DU JOUR :<br />
+1- Déclinaison du bilan des activités de l'ancien exercice reposant sur une vision première<br />
+2- Adoption d'un nouveau plan de travail et d'une nouvelle orientation de l'association <br />
+3- Révision du mode  de cotisations permanentes <br />
+4- Divers <br />
+• S'agissant du rapport moral, il a été démonté que la structure avait pour but premier de fédérer les enfants nés d'une même mère. Il s'agit de la terre de Mimbang Essandone autour de qui les jeunes ont conçu une idéologie commune portant sur le retour aux valeurs fondamentales comme en témoigne son nom.<br />
+• Rapport financier et des Comptes de l'exercice clos en 2022<br />
+• Budget prévisionnel<br />
+∆ Ouverture<br />
+✓ l'Assemblée a approuvé le compte rendu de l'exercice précédent avec le rapport moral dressé depuis la création de l'association<br /> 
+✓ Le rapport financier et celui des comptes de l'exercice clos en 2022 n'ont pas pu s'établir de manière détaillée du fait de l'absence des anciens responsables du secteur des finances <br />
+✓ En affectation de résultats, les aides sociales constituaient principalement l'objet du traitement réservé aux finances et aux bénéfices.<br />
+✓ Aucun vote ne s'est effectué sur le budget prévisionnel<br />
+✓ L' Assemblée a adopté à l'unanimité la nouvelle vision de l'association axée sur le lancement des Activités Génitrices de Revenus (AGR)<br />
+✓ L'Assemblée a acté le fait que le bureau propose, le plus rapidement possible, des études de faisabilité concernant les AGR énoncées pour permettre d'avoir une lecture plus concrète avant le choix des projets prioritaires<br />
+✓ l'Assemblée a revu les cotisations permanentes ainsi qu'il suit :<br />
+- Membre du bureau : 15.000f/mois<br />
+- Membre adhérent salarié : 10.000f/mois<br />
+- Membre adhérent non salarié : 5000f/mois<br />
+Le recouvrement de ces cotisations mensuelles pourra s'effectuer chaque premier week-end après le 05 du mois.<br />
+• En questions diverses,  l'Assemblée a reconsidéré le processus de rétablissement des dommages causés  pendant l'ancien exercice à l'exemple de celui portant sur la disparition des chaises de M. MEGNE m'ASSOUMOU Jean de Dieu.<br />
+Fait à Libreville le 05/05/2024<br /><br />
+LE SECRÉTAIRE GÉNÉRAL
+Kévin MEBA
+				</p>
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+								<img src="{% static 'images/clients/ev1.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+								<img src="{% static 'images/clients/ev2.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev3.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev4.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev5.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev6.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev7.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev8.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev9.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+
+
+
+				<br /> 
+
+				<hr>
+				<!---------------------/evenement 2--------------------------->
+				<h3 class="text-center">Association Zen Ya Zok (ZZ) :8 avril 2024</h3>
+                
+                <p>
+						<p class="text-center">FILS DE ZOK de la semaine :<p />
+MEBA ONDO Kévin Igor<br />
+Secrétaire Général de l'association ZZ <br />
+Né le 14 Juin 1982 à Bitam, MEBA ONDO Kévin Igor est fiancé et père de 4 enfants.
+Parcours scolaire et formations :  <br />
+- CEPE : École Publique de Bakélé1 (Koula-Moutou)<br />
+- BEPC : Lycée Charles Mefane (Lambaréné)<br />
+- BACCALAURÉAT A1 : Collège Évangélique NANG ESSONO Samuel de Melen (Libreville)<br />
+- CAP : à la fonction d'Agent Commercial en Assurance Vie (NSIA Vie de Libreville)<br />
+- CFP: opérations de production pétrolière. Brain Storming Petroleum (Port-Gentil)<br />
+Parcours professionnel :<br />
+- Agent commercial NSIA Vie<br />
+- Agent Administratif AJCF Consulting<br />
+- Attaché Parlementaire du Député du 1er Siège du Département du Ntem Commune de Bitam (13ème Législature)<br />
+- Agent du Ministère des Eaux et Forêts <br />
+L'actuel SG de l'association ZZ est un Homme aux multiples facettes. Il est Artiste Chanteur, Auteur, Compositeur et Interprète.
+Auteur de plusieurs titres parmi lesquels :<br />
+- Les 4 Histoires<br />
+- Point V<br />
+- Ma Conviction<br />
+- Minkóm<br />
+- Corona <br />
+- Tendance <br />
+- Olam Édzing<br />
+- Nkú Wakôbô (ZZ)<br />
+confère Youtube <br />
+Homme de culture prônant la Restauration identitaire et le retour aux sources.<br />
+- Président de l'ONG ARINA INTERNATIONAL <br />
+- Membre Fondateur de l'association Zen ya Zok (ZZ)<br />
+- Membre actif de l'organisation Kémits du Gabon.<br />
+Il est philanthrope, aimant, fédérateur et répond d'un grand humour dans le vivre ensemble.<br />
+				</p>
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev11.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev12.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev13.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev14.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev15.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev16.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						
+					</div><!--/.owl-carousel-->
+
+
+
+
+
+				<hr>
+				<br />
+				<!---------------------/evenement 3--------------------------->
+				<h3 class="text-center">association Zen Ya Zok (ZZ) :25 mars 2024</h3>
+                
+                <p>
+						<p class="text-center">FILS DE ZOK de la semaine :<p />
+MEWOUROU CARTHAGE Steeve<br />
+Trésorier Général de l'association ZZ<br />
+Titulaire d'un Master en Business d'Administration (MBA), MEWOUROU CARTHAGE Steeve a fait ses études primaires à l'école Catholique de Mimbang Essandone, et ses études secondaires au Collège Jésus Marie de Bitam.
+Il est Président Directeur Général de l'une des entreprises les plus huppées dans les services de nettoyage industriel au Gabon dénommée AÉRO CLEAN.<br />
+Ce fils de ZOK représente clairement la jeunesse montante du Gabon et brille surtout par son esprit d'entraide et de partage. Il aime Mimbang Essandone et ses parents, raison pour laquelle il a décidé de soutenir la vision de l'association ZZ. 
+L'actuel Trésorier Général de l'association ZZ adore le monde des affaires. Il accorde une primeur à la mise en place des activités Génératrices de revenus (AGR). C'est un véritable fruit lié au souci du détail, de la rigueur et de la discipline des affaires.
+Il adore les défis et brille par son esprit de persévérance.<br />
+Il s'agit d'une personnalité forte et déterminée.<br />
+				</p>
+				
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev17.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev18.jpg' %}" alt="brand-image" class="img-fluid zoom"width="200px" height="300px" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev19.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev20.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev21.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev22.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev23.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						
+					</div><!--/.owl-carousel-->
+
+
+
+
+				<br />
+				<hr>
+				<!---------------------/evenement 4--------------------------->
+				<h3 class="text-center">🐘 ASSOCIATION  ZEN YA ZOK (ZZ): Dimanche 24 Mars 2024🐘
+				Reunion génerale</h3>
+                <br />
+                <p>
+						Cette communication tient lieu de compte-rendu de la réunion qui s’est tenue le Dimanche 24 Mars 2024 à la station Engen (St Georges) dès 17h05.<br />
+Étaient présents :<br />
+- EDOU Teddy (Président)<br />
+- MEBA ONDO Kévin (S.G.)<br />
+- EBANG Marius Trésor (Chargé des activités sportives)<br />
+- OYONO NGOUA Crépin <br />
+- MEDZA Ariane <br />
+- ESSONO ZOMO Larry Nance<br />
+- BEKA Ismaël <br />
+- ESSONO Nancy <br />
+La réunion objet de ce présent compte-rendu avait pour principaux objectifs de :<br />
+1. Présenter le bilan de l'ancien exercice.<br />
+2. Émettre et centraliser les perspectives.<br />
+3. Divers.<br />
+<br />
+Au cours de la réunion ont été abordés les sujets suivants :<br />
+- Une présentation d'un bilan de l'ancien exercice par le président de l'association Zen ya Zok (ZZ).<br />
+- Des idées en perspectives tenant compte des forces et des faiblesses de l'ancien travail.<br />
+- Une révision, en vue, du bureau pour répondre à la préoccupation sur la distance géographique de certains membres.<br />
+Après discussions entre les différentes personnes conviées, il a été décidé ce qui suit :<br />
+- La mise en place d'un système de gestion des ressources humaines, naturelles et sociales du village Mimbang Essandone.<br />
+- L'organisation d'une Assemblée Générale Extraordinaire dans les délais.<br />
+Pour répondre aux conclusions des sujets abordés et pour la mise en place des décisions évoquées ci-dessus, des commissions ont été mises en place quant à l'organisation de l'assemblée générale.<br />
+Interventions<br />
+*Crépin OYONO :<br />
+- Demande d'efforts supplémentaires de sensibilisation pour ressusciter l'intérêt de tous les Fils de Mimbang à l'action de ZZ.<br />
+- Le but de l'association étant de mettre en contact les Filles et les Fils d'un même village, il serait judicieux d'éviter un trop de  rencontres virtuelles (WhatsApp) pour favoriser celles physiques.<br />
+- Pour que les Fils du village Mimbang Essandone sachent comment se positionner dans l'association, il faut qu'ils soient dans la capacité de comprendre le bien-fondé de l'existence de l'association et les activités qu'elle mène.<br />
+- Les membres de l'actuel bureau doivent se mettre au travail avec beaucoup d'abnégation et ils doivent fournir l'effort d'honorer aux réunions surtout pour ceux résidants dans le Grand Libreville. <br />
+<< pas que le poste mais l'effort derrière >> fin de citation.<br />
+*Ariane MEDZA :<br />
+- On avance avec ceux qui veulent.<br />
+- Projet de plantation et vente de manioc marque ZZ.<br /> 
+- Achat d'une machine à écraser les aliments.<br />
+- Stratégie de contribution (500f) pour minimiser la somme mensuelle globale.<br />
+*NANCY :<br />
+- Achat d'un moulin. Utile pour les productions de l'association et ouverte à d'autres usagers moyennant un payement.<br />
+- Achat d'une tronçonneuse et d'une débroussailleuse.<br />
+Les deux machines doivent servir pour notre action agricole et mises en location ensuite.<br />
+À l’issue de la réunion, il a été demandé aux différents départements qui constituent le bureau de bien vouloir déposer leurs plans d'action au secrétariat général avant la date du 31 Mars 2024.<br />
+Quelques propositions de projets retenues :<br />
+       • Dépôt de dossier d'une forêt communautaire ;<br />
+       • Élevage des porcs ;<br />
+       • Production et vente du manioc<br /> 
+       • Achat d'un moulin à écraser <br />
+       • Achat d'une tronçonneuse<br />
+       • Achat d'une débroussailleuse <br />
+       • Briqueterie <br />
+C'est sur le ton d'un travail bien abattu agrémenté d'un désaltérant consistant que la réunion a pris fin.<br />
+NB : Il est constaté, pour le regretter, que les communications souffrent de leurs ignorances au regard des préoccupations en retour à celles-ci.<br />
+ZZ: Bine Boane be ya Zok 🐘<br />
+<br />
+LE SECRÉTAIRE GÉNÉRAL<br />
+Kévin MEBA
+				</p>
+				
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev24.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev25.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev26.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev27.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+					</div><!--/.owl-carousel-->
+
+
+
+
+
+
+					<hr>
+					<!---------------------/evenement 5'--------------------------->
+				<h3 class="text-center">association Zen Ya Zok (ZZ) :20 mars 2024</h3>
+                
+                <p>
+						<p class="text-center">FILS DE ZOK de la semaine :<p />
+Arnaud ESSONE<br />
+Vice Président de l'association ZZ<br />
+Arnaud est né le 04 Avril 1985 à Libreville. Il est marié et père d'une merveilleuse famille. Il a fait ses études secondaires au Collège Jésus Marie de Bitam à Mimbang Essandone et au Lycée Paul INDJENDJET GONDJOUT. Après son bac, il a continué ses études universitaires à l'Institut National des Sciences de Gestion.<br />
+Sur le plan professionnel, Arnaud est Acheteur/ Approvisionneur / Assistant RH à NOAM SARL depuis 2018.<br />
+Le vice-président de l'association ZZ est un homme respectueux, discipliné et rigoureux dans tout ce qu'il fait. Il aime son village Mimbang Essandone et donnerait ce qu'il faut pour le développement socioéconomique de celui-ci. Il adore jouer à la guitare et aime la bonne musique en général.				</p>
+				
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/v1.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/v2.jpg' %}" alt="brand-image" class="img-fluid zoom"width="200px" height="300px" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/v3.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/v4.jpg' %}" alt="brand-image" class="img-fluid zoom"/>
+							</a>
+						</div><!--/.item-->
+
+						
+					</div><!--/.owl-carousel-->
+
+
+
+
+
+
+
+				<br />
+				<hr>
+				<!---------------------/evenement 5--------------------------->	
+				<h3 class="text-center">🐘ASSOCIATION ZEN YA ZOK (ZZ)🐘:Dimanche 17 Mars 2024 🆁︎🅴︎🆄︎🅽︎🅸︎🅾︎🅽︎ </h3>
+                <br />
+                <p>
+						Cette communication tient lieu de compte-rendu de la réunion qui s’est tenue le Dimanche 17 Mars 2024 à la station Engen (St Georges) dès 16h30.<br />
+Étaient présents :<br />
+- EDOU Teddy (Président)<br />
+- MEBA ONDO Kévin (S.G.)<br />
+- CARTAGE MEWOUROU Steeve (Trésorier Général)<br />
+- ESSONE Wilfried (Responsable marqueting) <br />
+- MEBA ONDO Charly (Responsable de la sécurité et de la discipline)<br />
+- MBA MOTO Janis Yvanna (Responsable des femmes)<br />
+- ONDO OYONO Darlys Kévin<br />
+- BIBE BI EDJO Arthur Michel <br />
+La réunion objet de ce présent compte-rendu avait pour principaux objectifs de :<br />
+1. Échanger sur les responsabilités qui incombent à chaque membre du bureau ;<br />
+2. Émettre les besoins administratifs urgents de ZZ ;
+3. Constituer un projet d'activités à court, moyen et long terme ;<br />
+4. Monter une stratégie sur la gestion des finances ;<br />
+En fin, les divers.<br />
+Au cours de la réunion ont été abordés les sujets suivants :<br />
+- La présentation d'un bilan de l'ancien exercice avant toute relance d'activités<br />
+- La passage en revue des membres de l'actuel bureau avec échanges sur les différentes indisponibilités.<br />
+Après discussions entre les différentes personnes conviées, il a été décidé ce qui suit :<br />
+- La convocation d'une prochaine assise portant essentiellement sur la présentation du bilan avant la prochaine Assemblée générale.<br />
+Pour répondre aux conclusions des sujets abordés et pour la mise en place de la décision évoquée ci-dessus, un travail sera mené par l'ancien bureau aux fins de procurer un bilan dans lequel il sera question de cerner les forces et les faiblesses qui ont chaperonné cet exercice des dernières années ZZ avant de déployer une nouvelle feuille de route en assemblée générale pour validation.<br />
+*Teddy Edou :<br />
+Proposition de l'ordre du jour en attente d'adoption.<br />
+NB : Tous les points à l'ordre du jour n'ont pas tous été adoptés.<br />
+*Steeve CARTAGE MEWOUROU :<br />
+- Un seul point portant sur le bilan des activités menées par l'ancienne équipe avant d'en relancer d'autres.<br />
+- Une préoccupation sur le distance des membres du bureau éloignés géographiquement.<br />
+- Une proposition sur d'autres méthodes de tenue des assises ZZ avec une logistique adéquate (Ordinateur, imprimante...) et que celles-ci se tiennent chez les différents membres du bureau.<br />
+*Wilfried ESSONE :<br />
+- Une préoccupation sur le corum qui ne semblait pas être atteint alors que la nouvelle équipe est constituée de 13 membres pour la plupart présents dans le Grand Libreville.<br /> 
+- Prévoir des adjoints pour les membres du bureau éloignés.<br />
+À l’issue de la réunion, il a été annoncé que l'ancienne devra travailler sur un bilan des activités menées au cours de l'ancien exercice .<br />
+La prochaine réunion aura lieu le Dimanche 24 Mars 2024 à 15h30 au sein de la Société Aéro Clean sise à la zone industrielle d'Oloumi derrière l'ANUTTC<br />
+C'est sur une note de satisfaction agrémentée d'un toast que la réunion a pris fin.<br />
+<br />
+LE SECRÉTAIRE GÉNÉRAL<br />
+Kévin MEBA</p>
+				
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev28.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev29.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/ev30.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+
+
+
+
+				<br />
+				<hr>
+				<!---------------------/evenement 6--------------------------->
+				<h3 class="text-center">ASSOCIATION ZEN YA ZOK (ZZ)🐘 🆁︎🅴︎🆄︎🅽︎🅸︎🅾︎🅽︎ samedi 04 décembre 2021</h3>
+                <br />
+                <p>
+						Une rencontre des jeunes de la structure associative Zen ya Zok (ZZ) avec certains membres du conseil des anciens s'est tenue le samedi 04 décembre 2021 à 15h30 au domicile du  Président Edou Teddy Terrence. <br />
+Ce colloque a porté sur l'adoption d'une proposition d'ordre du jour à l'assemblée générale prochaine. 
+En fait des propositions, une étude a pesé sur :<br />
+👉🏾1- L'approbation de l'acquisition d'une forêt communautaire dans la grande frondaison de Zok.<br />
+👉🏾2- La régularisation de la situation administrative des enfants et jeunes du quartier/village Mimbang Essandone en manque d'actes de naissance.<br />
+👉🏾3- Le projet reposant sur l'autonomisation des jeunes de Mimbang Essandone dénommé : 5 jeunes, 5 projets réalisés.<br />
+👉🏾4- La parade culturelle avec un thème au choix pour la période des vacances à Mimbang Essandone.<br />
+👉🏾5- La date de la tenue de l'assemblée générale qui a été arrêtée au samedi 08 janvier 2022. <br />
+C'est autour d'une collation de la haute portée proposée par le couple hôte Edou que la rencontre a pris fin. 
+Puissent nos Ancêtres veiller sur chacun des Fils de Zok en cette période de fin d'année. <br />
+<br />
+LE SECRÉTAIRE GÉNÉRAL
+  
+				</p>
+				<br />
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p1.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p2.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p3.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p4.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p5.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p6.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p7.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/p8.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						
+					</div><!--/.owl-carousel-->
+
+
+
+				<br />
+
+				<hr>
+				<!---------------------/evenement 7--------------------------->
+				<h3 class="text-center">ASSOCIATION ZEN YA ZOK (ZZ)🐘: Mercredi 04 Août 2021 🆁︎🅴︎🆄︎🅽︎🅸︎🅾︎🅽︎ </h3>
+                <br />
+                <p>
+						Le président et l'ensemble du bureau exécutif de l'association Zen ya Zok tiennent à remercier toutes les bonnes volontés qui ont contribuées à accompagner dignement notre frère Bertin Wilfried Meba par ailleurs Responsable des Projets dans la célébration de son hymen avec Mélyse Gninguy Dangha désormais Épouse Meba.<br />
+Il a été démontré une fois encore que lorsque les Fils de Zok sont ensemble, c'est la matérialisation d'une grande force. 
+Considérant que nous restons dans dynamique de la célébration des noces au sein de notre regroupement familial, une réunion de la grande importance se tiendra ce samedi 07 Août 2021 au domicile du Président à 14h30 avec objet principal, l'harmonisation des préparatifs du mariage de Vanessa Essone Zuè  Secrétaire Générale Adjointe.<br /> 
+Demeurer en bon lien avec ses ancêtres est un schéma qui a pour résultats évidents, la récolte des grâces et bénédictions. 
+ZZ, bine boane be ya Zok 🐘<br />
+<br />
+LE SECRÉTAIRE GÉNÉRAL<br />
+Kévin Meba
+				</p>
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m1.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m2.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m3.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m4.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m5.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m6.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m7.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m8.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m9.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+						<div class="item zoom-container">
+							<a href="#">
+								<img src="{% static 'images/clients/m10.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+
+
+				<br />
+
+				<hr>
+				<!---------------------/evenement 8--------------------------->	
+					
+					<h3 class="text-center">L'association Zen ya ZOK ( ZZ) 28/01/2021</h3>
+	                <br />
+	                <p class="text-center">
+							 dans  l'union du jour (le 28/01/2021) à la page 20. 
+	Nous disons "Abora" au journal l'Union!
+					</p>  
+	                  
+	            	<div>
+	                	<div class="col-sm-12" class="">
+							    <li class="text-center"><img class="d-block w-100" src="{% static 'images/clients/union.jpg' %}" alt="premier slide"></li>
+						</div>
+					</div>
+
+					<br /> 
+					<br />
+					<br />
+					<br />
+
+
+					<hr>
+					<h3 class="text-center">ASSOCIATION ZEN YA ZOK (ZZ)🐘: 11 Janvier 2021 </h3>
+    				
+
+    			<p class="text-center">	GABON / VIE ASSOCIATIVE : "Zen ya Zok", pour une promotion des valeurs culturelles</p>
+
+                <br /> <br />
+                <p class="text-center">
+						 <iframe  src="https://www.youtube.com/embed/_vUqhhlzN-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</p>  
+                  
+            	<br /> <br />
+		
+            	<hr>
+            	<!---------------------/evenement 9--------------------------->
+				<h3 class="text-center">ASSOCIATION ZEN YA ZOK (ZZ)🐘: Mercredi 04 Août 2021 🆁︎🅴︎🆄︎🅽︎🅸︎🅾︎🅽︎ </h3>
+                <br />
+                <p>
+						Les jeunes du quartier-village Mimbang Essandone regroupés au sein de l'association Zen ya Zok🐘 (ZZ) ont rendu grâce au Père Créateur et aux Ancêtres pour leur avoir permis de traverser une première année de vie associative.<br />
+C'est autour d'une cérémonie riche en couleurs et en beauté que la joie des Filles et Fils de Zok s'est exprimée car le chemin reste long lorsque l'on à soufflé que la 1ère des bougies 🕯️.
+Longue vie à ZZ✨🇬🇦
+				</p>
+				<div class="owl-carousel owl-theme brand-item">
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/1.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/2.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/3.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/4.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/5.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/6.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/7.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/8.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/9.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/10.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/11.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/12.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/13.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/14.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/15.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/16.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/17.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/18.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/19.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/20.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/21.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/22.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/23.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/24.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/25.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/26.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/27.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/28.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/29.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/30.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/31.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/32.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/33.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/34.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/35.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/36.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/37.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/38.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/39.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+					<div class="item zoom-container">
+						<a href="#">
+							<img src="{% static 'images/clients/40.jpg' %}" alt="brand-image" class="img-fluid zoom" />
+						</a>
+					</div><!--/.item-->
+				</div><!--/.owl-carousel-->
+
+
+				<br />
+				<hr size="2">
+
+
+
+
+
+
+
+				</div><!--/.clients-area-->
+
+			</div><!--/.container-->
+
+		</section><!--/brand-->	
+		<!--brand end -->
+
+
+
+
+
+
+
+
+		<!--blog start -->
+		<section id="blog" class="blog"></section><!--/.blog-->
+		<!--blog end -->
+
+		<!--contact start-->
+		<footer id="contact"  class="contact">
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+
+						<div class="col-md-5">
+							<div class="single-footer-widget">
+								<div class="footer-logo">
+									<a href="#">Notre contact</a>
+								</div>
+								<p>
+									Nous Contacter
+Pour toute question, suggestion ou information complémentaire sur l'association Zen Ya Zok (ZZ), n'hésitez pas à nous contacter directement. Nous sommes toujours heureux de discuter et de recevoir vos commentaires.
+								</p>
+								<div class="footer-contact">
+									<p>Adresse: Village MIMBANG, [Adresse spécifique]</p>
+									<p>Téléphone : +24177533030</p>
+									<p>Email : info@zenyazok.com</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 ">
+							<div class="single-footer-widget">
+								<h2 >Nos reseaux</h2>
+								
+									<div class="">
+										<a href="#" style="margin-right: 30px;"><i class="fa fa-whatsapp"></i></a>
+										<a href="#" style="margin-right: 30px;"><i class="fa fa-facebook"></i></a>	
+										<a href="#" style="margin-right: 30px;"><i class="fa fa-instagram"></i></a>
+											
+									</div>
+								
+							</div>
+						</div>
+						
+						<div class="col-md-4">
+							<div class="single-footer-widget">
+								<h2>newsletter</h2>
+								<div class="footer-newsletter">
+									<p>
+										Restez informé des dernières nouvelles et événements de l'association Zen Ya Zok (ZZ). Recevez nos mises à jour directement dans votre boîte de réception en vous abonnant à notre newsletter.
+
+Comment s'abonner ?
+Envoyez-nous un email à l'adresse suivante : newsletter@zenyazok.org avec votre nom et votre adresse email. Nous vous ajouterons à notre liste de diffusion pour que vous ne manquiez aucune information importante.
+									</p>
+								</div>
+								<div class="hm-foot-email">
+									<div class="foot-email-box">
+										<input type="text" class="form-control" placeholder="Add Email">
+									</div><!--/.foot-email-box-->
+									<div class="foot-email-subscribe">
+										<span><i class="fa fa-arrow-right"></i></span>
+									</div><!--/.foot-email-icon-->
+								</div><!--/.hm-foot-email-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="row">
+						<div class="col-sm-6">
+							<p>
+								&copy; copyright.développé par Jessy NGUEMA || tel: +24174578494</a>.
+							</p><!--/p-->
+						</div>
+						
+					</div>
+				</div><!--/.footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.contact-->
+		<!--contact end-->
+
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+
+		<script src="{% static 'js/jquery.js' %}"></script>
+
+	    <script src="{% static 'js/popper.min.js' %}"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+		
+		<!-- bootsnav js -->
+		<script src="{% static 'js/bootsnav.js' %}"></script>
+
+		<!--owl.carousel.js-->
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="{% static 'js/custom.js' %}"></script>
+
+
+        <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+
+        
+
+
+        
+    </body>
+	
+</html>
